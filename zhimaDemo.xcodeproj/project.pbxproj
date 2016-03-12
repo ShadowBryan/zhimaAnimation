@@ -15,6 +15,8 @@
 		7A6B50371C94395D00E6780D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6B50351C94395D00E6780D /* LaunchScreen.storyboard */; };
 		7A6B50421C94395D00E6780D /* zhimaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6B50411C94395D00E6780D /* zhimaDemoTests.m */; };
 		7A6B504D1C94395D00E6780D /* zhimaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6B504C1C94395D00E6780D /* zhimaDemoUITests.m */; };
+		7A6B505C1C94397300E6780D /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6B505B1C94397300E6780D /* ProgressView.m */; };
+		7A6B505E1C943CFD00E6780D /* backgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6B505D1C943CFD00E6780D /* backgroundImage@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		7A6B50481C94395D00E6780D /* zhimaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhimaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6B504C1C94395D00E6780D /* zhimaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zhimaDemoUITests.m; sourceTree = "<group>"; };
 		7A6B504E1C94395D00E6780D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6B505A1C94397300E6780D /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		7A6B505B1C94397300E6780D /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		7A6B505D1C943CFD00E6780D /* backgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundImage@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +110,11 @@
 				7A6B502B1C94395D00E6780D /* AppDelegate.m */,
 				7A6B502D1C94395D00E6780D /* ViewController.h */,
 				7A6B502E1C94395D00E6780D /* ViewController.m */,
+				7A6B505A1C94397300E6780D /* ProgressView.h */,
+				7A6B505B1C94397300E6780D /* ProgressView.m */,
 				7A6B50301C94395D00E6780D /* Main.storyboard */,
 				7A6B50331C94395D00E6780D /* Assets.xcassets */,
+				7A6B505D1C943CFD00E6780D /* backgroundImage@2x.png */,
 				7A6B50351C94395D00E6780D /* LaunchScreen.storyboard */,
 				7A6B50381C94395D00E6780D /* Info.plist */,
 				7A6B50271C94395D00E6780D /* Supporting Files */,
@@ -248,6 +256,7 @@
 			files = (
 				7A6B50371C94395D00E6780D /* LaunchScreen.storyboard in Resources */,
 				7A6B50341C94395D00E6780D /* Assets.xcassets in Resources */,
+				7A6B505E1C943CFD00E6780D /* backgroundImage@2x.png in Resources */,
 				7A6B50321C94395D00E6780D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A6B502F1C94395D00E6780D /* ViewController.m in Sources */,
+				7A6B505C1C94397300E6780D /* ProgressView.m in Sources */,
 				7A6B502C1C94395D00E6780D /* AppDelegate.m in Sources */,
 				7A6B50291C94395D00E6780D /* main.m in Sources */,
 			);

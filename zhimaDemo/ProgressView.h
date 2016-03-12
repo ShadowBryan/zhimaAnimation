@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ProgressView : UIView
-
+@property (nonatomic, strong) UIImageView *mainImageView;
+@property (nonatomic, assign) CGFloat percent;
 @end
